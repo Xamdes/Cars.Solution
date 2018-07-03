@@ -1,0 +1,8 @@
+/Users/Guest/Desktop/Cars.Solution/Cars/bin/Debug/netcoreapp1.1/Cars.deps.json
+/Users/Guest/Desktop/Cars.Solution/Cars/bin/Debug/netcoreapp1.1/Cars.runtimeconfig.json
+/Users/Guest/Desktop/Cars.Solution/Cars/bin/Debug/netcoreapp1.1/Cars.runtimeconfig.dev.json
+/Users/Guest/Desktop/Cars.Solution/Cars/bin/Debug/netcoreapp1.1/Cars.dll
+/Users/Guest/Desktop/Cars.Solution/Cars/bin/Debug/netcoreapp1.1/Cars.pdb
+/Users/Guest/Desktop/Cars.Solution/Cars/obj/Debug/netcoreapp1.1/Cars.AssemblyInfo.cs
+/Users/Guest/Desktop/Cars.Solution/Cars/obj/Debug/netcoreapp1.1/Cars.dll
+/Users/Guest/Desktop/Cars.Solution/Cars/obj/Debug/netcoreapp1.1/Cars.pdb

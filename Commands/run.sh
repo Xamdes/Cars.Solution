@@ -1,0 +1,2 @@
+cd ../Cars/
+dotnet run

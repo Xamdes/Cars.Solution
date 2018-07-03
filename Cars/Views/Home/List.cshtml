@@ -1,0 +1,9 @@
+<h1>List of Cars</h1>
+<ul>
+@foreach (var car in @Model)
+{
+<li>
+  @car.GetModel()
+</li>
+}
+</ul>
