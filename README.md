@@ -1,4 +1,4 @@
-# Epicodus Week 7 Day 2 Anagram
+# Epicodus Week 7 Day 2 Cars
 
 ## Author(s)
 

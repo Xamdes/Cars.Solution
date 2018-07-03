@@ -18,7 +18,11 @@ namespace Cars.Controllers
     [HttpGet("/list")]
     public ActionResult List()
     {
-      Car newCar = new Car(Request.Query["new-model"],int.Parse(Request.Query["new-price"]),int.Parse(Request.Query["new-mileage"]),Request.Query["new-color"]);
+      string model = Request.Query["new-model"];
+      int price = int.Parse(Request.Query["new-mileage"]);
+      int miles = int.Parse(Request.Query["new-price"]);
+      string color = Request.Query["new-color"];
+      Car newCar = new Car(model,price,miles,color);
       newCar.Save();
       return View(Car.GetCars());
     }

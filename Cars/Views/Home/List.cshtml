@@ -3,7 +3,13 @@
 @foreach (var car in @Model)
 {
 <li>
-  @car.GetModel()
+  Model: @car.GetModel()
+  <ul>
+    <li>Price: $@car.GetPrice()</li>
+    <li>Miles: @car.GetMiles()</li>
+    <li>Color: @car.GetColor()</li>
+  </ul>
 </li>
 }
 </ul>
+<a href="/">Add a new Car.</a>

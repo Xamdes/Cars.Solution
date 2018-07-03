@@ -8,11 +8,13 @@ namespace Cars.Models
     private string _makeModel;
     private int _price ;
     private int _miles;
+    private bool _saved;
     private string _color;
     private static List<Car> _carList = new List<Car>(){};
 
     public Car(string makeModel, int price, int miles, string color = "Blue")
     {
+      _saved = false;
       _makeModel = makeModel;
       _price = price;
       _miles = miles;
@@ -21,6 +23,7 @@ namespace Cars.Models
 
     public Car()
     {
+      _saved = false;
       _makeModel = "Civic";
       _price = 15000;
       _miles = 0;
@@ -34,7 +37,11 @@ namespace Cars.Models
 
     public void Save()
     {
-      _carList.Add(this);
+      if(!_saved)
+      {
+        _carList.Add(this);
+      }
+      _saved = true;
     }
 
     public void SetModel(string makeModel)
